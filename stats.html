@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>KDE Neon in Numbers</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <h1>KDE Neon Logs</h1>
+  <p id='timeFrame'>Time Frame: </p>
+  <p id='total'>Total Number of Machine IDs in Logs: </p>
+  <p id='totalUnique'>Unique Machine IDs in Logs: </p>
+  <div><h1>Installations by Country</h1></div>
+  <canvas id="installationsByCountry" width="400" height="150"></canvas>
+  <p id="totalCountries">Total Countries: <div id='totalCountries'></div></p>
+  <canvas id="installationsByCountryPie" width="400" height="150"></canvas>
+  <div><h1>Machine IDs over time (non-cumulative)</h1></div>
+  <canvas id="machineIDsOverTime" width="400" height="150"></canvas>
+  <div><h1>Machine IDs over Time (cummulative)</h1></div>
+  <canvas id="machineIDsOverTimeC" width="400" height="150"></canvas>
+  <div><h1>Unique MachineIDs over time (non-cumulative)</h1></div>
+  <canvas id="uniqueMachineIDsOverTime" width="400" height="150"></canvas>
+  <div><h1>Unique MachineIDs over Time (cummulative)</h1></div>
+  <canvas id="uniqueMachineIDsOverTimeC" width="400" height="150"></canvas>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
